@@ -30,8 +30,8 @@ threading.Thread(target=run_loop, daemon=True).start()
 schedule.every().monday.at("08:00").do(lambda: tugas_bot("*Selamat Pagi✨*\nJangan lupa absen untuk memulai hari dengan semangat. Semoga harimu lancar dan menyenangkan!"))  
 schedule.every().monday.at("17:00").do(lambda: tugas_bot("*Waktunya untuk istirahat!*\nJangan lupa absen sebelum meninggalkan kantor. Sampai jumpa di hari berikutnya!"))  
 
-schedule.every().tuesday.at("10:39").do(lambda: tugas_bot("*Selamat Pagi✨*\nJangan lupa absen untuk memulai hari dengan semangat. Semoga harimu lancar dan menyenangkan!"))
-schedule.every().tuesday.at("10:40").do(lambda: tugas_bot("*Waktunya untuk istirahat!*\nJangan lupa absen sebelum meninggalkan kantor. Sampai jumpa di hari berikutnya!"))
+schedule.every().tuesday.at("11:20").do(lambda: tugas_bot("*Selamat Pagi✨*\nJangan lupa absen untuk memulai hari dengan semangat. Semoga harimu lancar dan menyenangkan!"))
+schedule.every().tuesday.at("11:40").do(lambda: tugas_bot("*Waktunya untuk istirahat!*\nJangan lupa absen sebelum meninggalkan kantor. Sampai jumpa di hari berikutnya!"))
 
 schedule.every().wednesday.at("08:00").do(lambda: tugas_bot("*Selamat Pagi✨*\nJangan lupa absen untuk memulai hari dengan semangat. Semoga harimu lancar dan menyenangkan!"))
 schedule.every().wednesday.at("17:00").do(lambda: tugas_bot("*Waktunya untuk istirahat!*\nJangan lupa absen sebelum meninggalkan kantor. Sampai jumpa di hari berikutnya!"))
